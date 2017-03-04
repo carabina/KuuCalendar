@@ -10,7 +10,7 @@ import UIKit
 
 public class KuuCalendarManager: NSObject
 {
-    static let shared : KuuCalendarManager = KuuCalendarManager()
+    static public let shared : KuuCalendarManager = KuuCalendarManager()
     
     private let calendar : Calendar = Calendar(identifier: .gregorian)
     private let date : Date = Date()
