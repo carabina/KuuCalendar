@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KuuCalendar_Example' do
+  pod 'KuuCalendar', :path => '../'
+
+  target 'KuuCalendar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
