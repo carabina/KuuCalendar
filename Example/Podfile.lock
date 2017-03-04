@@ -1,0 +1,16 @@
+PODS:
+  - KuuCalendar (0.1.0)
+
+DEPENDENCIES:
+  - KuuCalendar (from `../`)
+
+EXTERNAL SOURCES:
+  KuuCalendar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KuuCalendar: 845c55f9a76edabfdfcdccefc709fac57356187b
+
+PODFILE CHECKSUM: 65b1204ae97de31528096a3ddf333b72fc877ad4
+
+COCOAPODS: 1.2.0

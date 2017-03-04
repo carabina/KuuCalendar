@@ -1,0 +1,6 @@
+framework module KuuCalendar {
+  umbrella header "KuuCalendar-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09F3CF9F15310A235C76EB5505698D6B /* Pods-KuuCalendar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D2710893B0607933E19B839E8343A /* Pods-KuuCalendar_Tests-dummy.m */; };
+		2D73D3E9605AA0A39A1AC9A9E551FA19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		422B6A2557DA9D71834F1862F42731E9 /* KuuCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 390F42D3231C7E8452A15BF7DE114F67 /* KuuCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5492905B28BE77AB25135C858B33D765 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5C5FC61FF9FF6EE76278BBDEADDF3547 /* Pods-KuuCalendar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A37B66B24F973C26ED1976A1A9DB0FB4 /* Pods-KuuCalendar_Example-dummy.m */; };
+		5C8418732FA2CAF7D7927A26C4D27385 /* KuuCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBE531CD60B59B5ADA210AE6ABB806F /* KuuCalendar-dummy.m */; };
+		636666504300BDB2433C1DC8C2132C48 /* Pods-KuuCalendar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4C935B8AFE3E3C7BB2A07A549D80FA /* Pods-KuuCalendar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82C66BFBE0B3EE4BCCEDF3D90321DF2B /* Pods-KuuCalendar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E975BE005F44FE644B1F42560C7C23 /* Pods-KuuCalendar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84C481B3BC6381C179F2D199B1A82303 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D8BA6CD51E6AB21100040A86 /* KuuCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA6CD11E6AB21100040A86 /* KuuCalendar.swift */; };
+		D8BA6CD61E6AB21100040A86 /* KuuCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA6CD11E6AB21100040A86 /* KuuCalendar.swift */; };
+		D8BA6CD71E6AB21100040A86 /* KuuCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA6CD11E6AB21100040A86 /* KuuCalendar.swift */; };
+		D8BA6CD81E6AB21100040A86 /* KuuCalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA6CD21E6AB21100040A86 /* KuuCalendarManager.swift */; };
+		D8BA6CD91E6AB21100040A86 /* KuuCalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA6CD21E6AB21100040A86 /* KuuCalendarManager.swift */; };
+		D8BA6CDA1E6AB21100040A86 /* KuuCalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA6CD21E6AB21100040A86 /* KuuCalendarManager.swift */; };
+		D8BA6CDB1E6AB21100040A86 /* KuuCalendarStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA6CD31E6AB21100040A86 /* KuuCalendarStructs.swift */; };
+		D8BA6CDC1E6AB21100040A86 /* KuuCalendarStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA6CD31E6AB21100040A86 /* KuuCalendarStructs.swift */; };
+		D8BA6CDD1E6AB21100040A86 /* KuuCalendarStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA6CD31E6AB21100040A86 /* KuuCalendarStructs.swift */; };
+		D8BA6CDE1E6AB21100040A86 /* KuuDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA6CD41E6AB21100040A86 /* KuuDayView.swift */; };
+		D8BA6CDF1E6AB21100040A86 /* KuuDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA6CD41E6AB21100040A86 /* KuuDayView.swift */; };
+		D8BA6CE01E6AB21100040A86 /* KuuDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA6CD41E6AB21100040A86 /* KuuDayView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		219D9C0397B5920B76E0FF4158354D54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E85A4A0CC741A528B1B85C01B6CE624;
+			remoteInfo = KuuCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002D0337741F085B2D5E5E1B794A9B86 /* Pods-KuuCalendar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KuuCalendar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		00F368133C0D81876BB75D71E7589D3B /* KuuCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KuuCalendar.modulemap; sourceTree = "<group>"; };
+		10C221654A2B2C98FBEEC71E6A10778F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F30B9573EEA0D5103CD229BF986E158 /* Pods_KuuCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KuuCalendar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		229A088DD183193295CDADBC5BF6B448 /* Pods-KuuCalendar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KuuCalendar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2742F4C954BA23FE8C3C9572139E9656 /* Pods-KuuCalendar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KuuCalendar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2CCCD5DC6C1E7268208131974154AB86 /* Pods-KuuCalendar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KuuCalendar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		33440BE3E533E29887D255270230BCF4 /* KuuCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KuuCalendar-prefix.pch"; sourceTree = "<group>"; };
+		390F42D3231C7E8452A15BF7DE114F67 /* KuuCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KuuCalendar-umbrella.h"; sourceTree = "<group>"; };
+		4A5EE9A2041EBE772EC2AA6DA4A69AE5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5628140D4B1A61DC79566DC95B65F467 /* KuuCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KuuCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5986415CD5AD3185ED605B0006DE31EC /* Pods-KuuCalendar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KuuCalendar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		64FF82ABDF5E4CEE7830538D8CEAB38E /* Pods-KuuCalendar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KuuCalendar_Example.modulemap"; sourceTree = "<group>"; };
+		68BF201B21E090D98147EF04E4FCBB08 /* Pods-KuuCalendar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KuuCalendar_Example-resources.sh"; sourceTree = "<group>"; };
+		7879E2B12977381786EE3DFCD9026582 /* Pods-KuuCalendar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KuuCalendar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7B4C935B8AFE3E3C7BB2A07A549D80FA /* Pods-KuuCalendar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KuuCalendar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9864FAE79E4CC72248C59616FA10B716 /* Pods_KuuCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KuuCalendar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15083DF30796139B00115782A3E8579 /* Pods-KuuCalendar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KuuCalendar_Tests-resources.sh"; sourceTree = "<group>"; };
+		A37B66B24F973C26ED1976A1A9DB0FB4 /* Pods-KuuCalendar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KuuCalendar_Example-dummy.m"; sourceTree = "<group>"; };
+		AC32A9B87BEA27F2EC236F187E65BECD /* Pods-KuuCalendar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KuuCalendar_Tests.modulemap"; sourceTree = "<group>"; };
+		B5E975BE005F44FE644B1F42560C7C23 /* Pods-KuuCalendar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KuuCalendar_Example-umbrella.h"; sourceTree = "<group>"; };
+		BBDFC72E6A3901FEE69EE48E354C3E73 /* Pods-KuuCalendar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KuuCalendar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BE886F78F1530DD423FB782734EE853C /* KuuCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KuuCalendar.xcconfig; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D69CD2FEBBD74AF14C16CBD249CD0C82 /* Pods-KuuCalendar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KuuCalendar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8BA6CD11E6AB21100040A86 /* KuuCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuuCalendar.swift; sourceTree = "<group>"; };
+		D8BA6CD21E6AB21100040A86 /* KuuCalendarManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuuCalendarManager.swift; sourceTree = "<group>"; };
+		D8BA6CD31E6AB21100040A86 /* KuuCalendarStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuuCalendarStructs.swift; sourceTree = "<group>"; };
+		D8BA6CD41E6AB21100040A86 /* KuuDayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuuDayView.swift; sourceTree = "<group>"; };
+		DD6C673EC1139190DE1E88867F0CC82B /* Pods-KuuCalendar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KuuCalendar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E103539B5FE1D70630E5DBD77B241F2E /* Pods-KuuCalendar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KuuCalendar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		ED0839A4C0190BFC812F34152A39A02C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED1D2710893B0607933E19B839E8343A /* Pods-KuuCalendar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KuuCalendar_Tests-dummy.m"; sourceTree = "<group>"; };
+		FCBE531CD60B59B5ADA210AE6ABB806F /* KuuCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KuuCalendar-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DE787177F1DC4F4FCCF4D308269970C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C481B3BC6381C179F2D199B1A82303 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE17648463BD6EBFA873023B6544C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D73D3E9605AA0A39A1AC9A9E551FA19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5E23E63A2F9B0759CCCEE073B9AA1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5492905B28BE77AB25135C858B33D765 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0434032CA19C917EF2A1606F80BE2A68 /* KuuCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				60651BAEECFBEA36E61E067F77ABFF38 /* Classes */,
+			);
+			path = KuuCalendar;
+			sourceTree = "<group>";
+		};
+		4A23A8B12AD7FA404C8A56651022D3CD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9778D01BAACE49C59A846DC16AECC16E /* KuuCalendar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		60651BAEECFBEA36E61E067F77ABFF38 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D8BA6CD11E6AB21100040A86 /* KuuCalendar.swift */,
+				D8BA6CD21E6AB21100040A86 /* KuuCalendarManager.swift */,
+				D8BA6CD31E6AB21100040A86 /* KuuCalendarStructs.swift */,
+				D8BA6CD41E6AB21100040A86 /* KuuDayView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4A23A8B12AD7FA404C8A56651022D3CD /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AB5ED696EECDD2AB9F6A0E6936595611 /* Products */,
+				BFAC431E360DFD54EFC694424EA275F1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F940A491F9FAB00613FC5EE95EF21E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED0839A4C0190BFC812F34152A39A02C /* Info.plist */,
+				00F368133C0D81876BB75D71E7589D3B /* KuuCalendar.modulemap */,
+				BE886F78F1530DD423FB782734EE853C /* KuuCalendar.xcconfig */,
+				FCBE531CD60B59B5ADA210AE6ABB806F /* KuuCalendar-dummy.m */,
+				33440BE3E533E29887D255270230BCF4 /* KuuCalendar-prefix.pch */,
+				390F42D3231C7E8452A15BF7DE114F67 /* KuuCalendar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KuuCalendar";
+			sourceTree = "<group>";
+		};
+		9778D01BAACE49C59A846DC16AECC16E /* KuuCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				0434032CA19C917EF2A1606F80BE2A68 /* KuuCalendar */,
+				8F940A491F9FAB00613FC5EE95EF21E9 /* Support Files */,
+			);
+			name = KuuCalendar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A41D0849C61CD94FC420C70344E6F212 /* Pods-KuuCalendar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4A5EE9A2041EBE772EC2AA6DA4A69AE5 /* Info.plist */,
+				64FF82ABDF5E4CEE7830538D8CEAB38E /* Pods-KuuCalendar_Example.modulemap */,
+				2CCCD5DC6C1E7268208131974154AB86 /* Pods-KuuCalendar_Example-acknowledgements.markdown */,
+				002D0337741F085B2D5E5E1B794A9B86 /* Pods-KuuCalendar_Example-acknowledgements.plist */,
+				A37B66B24F973C26ED1976A1A9DB0FB4 /* Pods-KuuCalendar_Example-dummy.m */,
+				E103539B5FE1D70630E5DBD77B241F2E /* Pods-KuuCalendar_Example-frameworks.sh */,
+				68BF201B21E090D98147EF04E4FCBB08 /* Pods-KuuCalendar_Example-resources.sh */,
+				B5E975BE005F44FE644B1F42560C7C23 /* Pods-KuuCalendar_Example-umbrella.h */,
+				2742F4C954BA23FE8C3C9572139E9656 /* Pods-KuuCalendar_Example.debug.xcconfig */,
+				7879E2B12977381786EE3DFCD9026582 /* Pods-KuuCalendar_Example.release.xcconfig */,
+			);
+			name = "Pods-KuuCalendar_Example";
+			path = "Target Support Files/Pods-KuuCalendar_Example";
+			sourceTree = "<group>";
+		};
+		AB5ED696EECDD2AB9F6A0E6936595611 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5628140D4B1A61DC79566DC95B65F467 /* KuuCalendar.framework */,
+				9864FAE79E4CC72248C59616FA10B716 /* Pods_KuuCalendar_Example.framework */,
+				1F30B9573EEA0D5103CD229BF986E158 /* Pods_KuuCalendar_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFAC431E360DFD54EFC694424EA275F1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A41D0849C61CD94FC420C70344E6F212 /* Pods-KuuCalendar_Example */,
+				C94665E25D4BFD4943667770C49B5F99 /* Pods-KuuCalendar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C94665E25D4BFD4943667770C49B5F99 /* Pods-KuuCalendar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				10C221654A2B2C98FBEEC71E6A10778F /* Info.plist */,
+				AC32A9B87BEA27F2EC236F187E65BECD /* Pods-KuuCalendar_Tests.modulemap */,
+				DD6C673EC1139190DE1E88867F0CC82B /* Pods-KuuCalendar_Tests-acknowledgements.markdown */,
+				5986415CD5AD3185ED605B0006DE31EC /* Pods-KuuCalendar_Tests-acknowledgements.plist */,
+				ED1D2710893B0607933E19B839E8343A /* Pods-KuuCalendar_Tests-dummy.m */,
+				BBDFC72E6A3901FEE69EE48E354C3E73 /* Pods-KuuCalendar_Tests-frameworks.sh */,
+				A15083DF30796139B00115782A3E8579 /* Pods-KuuCalendar_Tests-resources.sh */,
+				7B4C935B8AFE3E3C7BB2A07A549D80FA /* Pods-KuuCalendar_Tests-umbrella.h */,
+				D69CD2FEBBD74AF14C16CBD249CD0C82 /* Pods-KuuCalendar_Tests.debug.xcconfig */,
+				229A088DD183193295CDADBC5BF6B448 /* Pods-KuuCalendar_Tests.release.xcconfig */,
+			);
+			name = "Pods-KuuCalendar_Tests";
+			path = "Target Support Files/Pods-KuuCalendar_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36789FEC03A96BCD9F7D21FB0FE973DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636666504300BDB2433C1DC8C2132C48 /* Pods-KuuCalendar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7C38CC1FBCA159220D7070FB086105 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C66BFBE0B3EE4BCCEDF3D90321DF2B /* Pods-KuuCalendar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFF14832BAB6140A298F75A89362C70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422B6A2557DA9D71834F1862F42731E9 /* KuuCalendar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0157614AC4481F7C1DBAF033CFE911D9 /* Pods-KuuCalendar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE600FD1D5240C112571F51E321FD488 /* Build configuration list for PBXNativeTarget "Pods-KuuCalendar_Example" */;
+			buildPhases = (
+				874EF1D2DB2121FC67907B4614CBD181 /* Sources */,
+				DB5E23E63A2F9B0759CCCEE073B9AA1B /* Frameworks */,
+				3F7C38CC1FBCA159220D7070FB086105 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				543D12D3465D8159B03E0F7D5E0173AD /* PBXTargetDependency */,
+			);
+			name = "Pods-KuuCalendar_Example";
+			productName = "Pods-KuuCalendar_Example";
+			productReference = 9864FAE79E4CC72248C59616FA10B716 /* Pods_KuuCalendar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E85A4A0CC741A528B1B85C01B6CE624 /* KuuCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B734269B1BCDCD2FF1F87EA766A4C8FC /* Build configuration list for PBXNativeTarget "KuuCalendar" */;
+			buildPhases = (
+				8C14CDE8D821A2728CE3E419DB5C2808 /* Sources */,
+				6DE787177F1DC4F4FCCF4D308269970C /* Frameworks */,
+				5AFF14832BAB6140A298F75A89362C70 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KuuCalendar;
+			productName = KuuCalendar;
+			productReference = 5628140D4B1A61DC79566DC95B65F467 /* KuuCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7FAD6EDFE60FFB1122D25DC0F722AFAF /* Pods-KuuCalendar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 735FD670F3B214578D31D07974F668E1 /* Build configuration list for PBXNativeTarget "Pods-KuuCalendar_Tests" */;
+			buildPhases = (
+				A79D3CF3F754B26D2804B8105C65046F /* Sources */,
+				7FE17648463BD6EBFA873023B6544C8A /* Frameworks */,
+				36789FEC03A96BCD9F7D21FB0FE973DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KuuCalendar_Tests";
+			productName = "Pods-KuuCalendar_Tests";
+			productReference = 1F30B9573EEA0D5103CD229BF986E158 /* Pods_KuuCalendar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					0157614AC4481F7C1DBAF033CFE911D9 = {
+						LastSwiftMigration = 0820;
+					};
+					6E85A4A0CC741A528B1B85C01B6CE624 = {
+						LastSwiftMigration = 0820;
+					};
+					7FAD6EDFE60FFB1122D25DC0F722AFAF = {
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AB5ED696EECDD2AB9F6A0E6936595611 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E85A4A0CC741A528B1B85C01B6CE624 /* KuuCalendar */,
+				0157614AC4481F7C1DBAF033CFE911D9 /* Pods-KuuCalendar_Example */,
+				7FAD6EDFE60FFB1122D25DC0F722AFAF /* Pods-KuuCalendar_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		874EF1D2DB2121FC67907B4614CBD181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5FC61FF9FF6EE76278BBDEADDF3547 /* Pods-KuuCalendar_Example-dummy.m in Sources */,
+				D8BA6CD91E6AB21100040A86 /* KuuCalendarManager.swift in Sources */,
+				D8BA6CDC1E6AB21100040A86 /* KuuCalendarStructs.swift in Sources */,
+				D8BA6CDF1E6AB21100040A86 /* KuuDayView.swift in Sources */,
+				D8BA6CD61E6AB21100040A86 /* KuuCalendar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C14CDE8D821A2728CE3E419DB5C2808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8418732FA2CAF7D7927A26C4D27385 /* KuuCalendar-dummy.m in Sources */,
+				D8BA6CD81E6AB21100040A86 /* KuuCalendarManager.swift in Sources */,
+				D8BA6CDB1E6AB21100040A86 /* KuuCalendarStructs.swift in Sources */,
+				D8BA6CDE1E6AB21100040A86 /* KuuDayView.swift in Sources */,
+				D8BA6CD51E6AB21100040A86 /* KuuCalendar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79D3CF3F754B26D2804B8105C65046F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F3CF9F15310A235C76EB5505698D6B /* Pods-KuuCalendar_Tests-dummy.m in Sources */,
+				D8BA6CDA1E6AB21100040A86 /* KuuCalendarManager.swift in Sources */,
+				D8BA6CDD1E6AB21100040A86 /* KuuCalendarStructs.swift in Sources */,
+				D8BA6CE01E6AB21100040A86 /* KuuDayView.swift in Sources */,
+				D8BA6CD71E6AB21100040A86 /* KuuCalendar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		543D12D3465D8159B03E0F7D5E0173AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KuuCalendar;
+			target = 6E85A4A0CC741A528B1B85C01B6CE624 /* KuuCalendar */;
+			targetProxy = 219D9C0397B5920B76E0FF4158354D54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06C6A95C84E837A8942B0E9C454609E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE886F78F1530DD423FB782734EE853C /* KuuCalendar.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KuuCalendar/KuuCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KuuCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KuuCalendar/KuuCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KuuCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		118398546B060A9DCB50A98EF6FF0387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE886F78F1530DD423FB782734EE853C /* KuuCalendar.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KuuCalendar/KuuCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KuuCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KuuCalendar/KuuCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KuuCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D2D646FD53588501BBAFAB3C960C4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 229A088DD183193295CDADBC5BF6B448 /* Pods-KuuCalendar_Tests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KuuCalendar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KuuCalendar_Tests/Pods-KuuCalendar_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KuuCalendar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E840B405CB6FBB9D5279E1D713155C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7879E2B12977381786EE3DFCD9026582 /* Pods-KuuCalendar_Example.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KuuCalendar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KuuCalendar_Example/Pods-KuuCalendar_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KuuCalendar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DE36C46429C27BA4B7E7D917010BFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2742F4C954BA23FE8C3C9572139E9656 /* Pods-KuuCalendar_Example.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KuuCalendar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KuuCalendar_Example/Pods-KuuCalendar_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KuuCalendar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F66FB11A06E52E0B071F4174AC19A969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D69CD2FEBBD74AF14C16CBD249CD0C82 /* Pods-KuuCalendar_Tests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KuuCalendar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KuuCalendar_Tests/Pods-KuuCalendar_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KuuCalendar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		735FD670F3B214578D31D07974F668E1 /* Build configuration list for PBXNativeTarget "Pods-KuuCalendar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66FB11A06E52E0B071F4174AC19A969 /* Debug */,
+				6D2D646FD53588501BBAFAB3C960C4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B734269B1BCDCD2FF1F87EA766A4C8FC /* Build configuration list for PBXNativeTarget "KuuCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C6A95C84E837A8942B0E9C454609E8 /* Debug */,
+				118398546B060A9DCB50A98EF6FF0387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE600FD1D5240C112571F51E321FD488 /* Build configuration list for PBXNativeTarget "Pods-KuuCalendar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE36C46429C27BA4B7E7D917010BFFE /* Debug */,
+				7E840B405CB6FBB9D5279E1D713155C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
