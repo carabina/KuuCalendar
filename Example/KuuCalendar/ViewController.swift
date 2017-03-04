@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import KuuCalendar
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var kuuCalendar : KuuCalendar!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,5 +23,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    @IBAction func actionPrevMonth ( _ sender : UIButton )
+    {
+        self.kuuCalendar.prevMonth()
+    }
+    
+    @IBAction func actionNextMonth ( _ sender : UIButton )
+    {
+        self.kuuCalendar.nextMonth()
+    }
 }
 
